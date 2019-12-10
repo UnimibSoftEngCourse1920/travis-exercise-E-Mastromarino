@@ -3,7 +3,7 @@ jdk:
  - openjdk8
  addons:
  	sonarcloud:
- 		organization: "unimibsoftengcourse1920" 
+ 		organization: "travis" 
  		token:
  			secure: $SONAR_TOKEN
  script:
