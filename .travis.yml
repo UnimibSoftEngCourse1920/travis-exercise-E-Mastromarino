@@ -4,7 +4,7 @@ jdk:
 	addons:
 		sonarcloud:
 			organization: "unimibsoftengcourse1920"
-		token:
+				token:
 			secure: $SONAR_TOKEN
-	script:
- 	 - mvn sonar:sonar
+script:
+	- mvn sonar:sonar
