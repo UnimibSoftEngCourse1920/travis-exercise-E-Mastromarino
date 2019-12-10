@@ -3,9 +3,8 @@ jdk:
  - openjdk8
 addons:
 	sonarcloud:
-		organization: "3dad09e71c35e747612db1ef827b6220bd176600" # the key of the org you chose at step #3
+		organization: "unimibsoftengcourse1920"
 	token:
-		secure: $SONAR_TOKEN # encrypted value of your token
+		secure: $SONAR_TOKEN
 script:
-# the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
 - mvn sonar:sonar
